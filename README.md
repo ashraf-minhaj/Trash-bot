@@ -1,5 +1,7 @@
-    #include<servo.h>
-    Servo servo;
+see the ttrash robot https://www.youtube.com/edit?o=U&video_id=JR9r6p7lBXw
+
+	#include<servo.h>
+        Servo servo;
 	int const trigPin = 6;
 	int const echoPin = 5;
 	void setup()
