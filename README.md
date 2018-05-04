@@ -1,23 +1,18 @@
 # Trash-bot
 I've made an automatic Trash-Bot that opens and closes it's upper lid as it sees any rubbish or trash. Its based on arduino and ultrasound sensor Hcsr-04
+
 #include<servo.h>
 Servo servo;
 int const trigPin = 6;
 int const echoPin = 5;
-
-
 void setup()
 {
 	pinMode(trigPin, OUTPUT); 
 	pinMode(echoPin, INPUT); 
-
- servo.attach(3);
+        servo.attach(3);
 }
-
 void loop()
-{
-	
-	int duration, distance;
+{       int duration, distance;
 	digitalWrite(trigPin, HIGH); 
 	delay(1);
 	digitalWrite(trigPin, LOW);
