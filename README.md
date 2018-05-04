@@ -1,4 +1,4 @@
-see the ttrash robot https://www.youtube.com/edit?o=U&video_id=JR9r6p7lBXw
+see the ttrash robot https://www.youtube.com/watch?v=0gYgK0xUwfA&t=58s
 
 	#include<servo.h>
         Servo servo;
