@@ -5,16 +5,12 @@
 Servo servo;
 int const trigPin = 6;
 int const echoPin = 5;
-
-
 void setup()
 {
-	pinMode(trigPin, OUTPUT); 
+        pinMode(trigPin, OUTPUT); 
 	pinMode(echoPin, INPUT); 
-
- servo.attach(3);
+	servo.attach(3);
 }
-
 void loop()
 {
 	
