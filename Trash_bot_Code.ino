@@ -1,4 +1,4 @@
-//www,youtube.com/c/fusebatti
+//www.youtube.com/c/fusebatti
 
 #include<servo.h>
     Servo servo;
